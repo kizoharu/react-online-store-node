@@ -1,0 +1,39 @@
+
+.devicePageImageRowStyle {
+  display: flex;
+}
+
+.devicePageRatingRowStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.devicePageInnerRowStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  background: url('../assets/bigStar.png') no-repeat center center;
+  background-size: cover;
+}
+
+
+.devicePageCardStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 300px;
+  font-size: 32px;
+  border: 5px solid lightgray;
+}
+
+.devicePageDescriptRowStyle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+

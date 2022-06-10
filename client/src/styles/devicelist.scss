@@ -1,0 +1,7 @@
+.deviceListRowStyle {
+  // display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 140px);
+  justify-content: space-between;
+  flex-flow: wrap;
+}

@@ -1,0 +1,30 @@
+.brandRowStyle {
+  // display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 140px);
+  justify-content: space-between;
+  flex-flow: wrap;
+  .brandCardStyle {
+    cursor: pointer;
+    width: 160px;
+    height: 60px;
+    background-color: aquamarine;
+    // padding:  10px;
+    margin-bottom: 10px;
+    
+    box-shadow: 3px 0 7px rgba(0,0,0,.3);
+  }
+}
+
+
+
+// .cardStyle:not(:last-child) {
+//   margin-top: 10px;
+// }
+
+
+// .brandRowStyle .cardStyle {
+  
+// }
+
+
